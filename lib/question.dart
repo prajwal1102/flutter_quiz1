@@ -6,7 +6,7 @@ class Question extends StatelessWidget {
   //const Question({super.key});
 
   var question;
-  Question(this.question, {super.key});
+  Question(this.question);
 
   @override
   Widget build(BuildContext context) {
